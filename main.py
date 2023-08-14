@@ -174,7 +174,7 @@ def enter_address(update: Update, context: CallbackContext) -> int:
     # Save the address to user_data or handle it as needed
     context.user_data["address"] = address
 
-    update.message.reply_text(f"Thank you! Your order will be delivered to the following address:\n{address} whithin the next hour.")
+    update.message.reply_text(f"Thank you! Your order will be delivered to the following address:\n{address} whithin the next hour.\nPayment will be done on delivery.")
     return ConversationHandler.END  # End the conversation
 
 # Modify the ConversationHandler to include the new states
