@@ -61,6 +61,8 @@ Small (R19.99), Medium (R22.90), Large (R25.90)
 
 --------------------------------------------------
 
+Example of ordering something not on the menu
+---------------------------------------------
 CoffeeBot, [2023/08/14 16:45]
 Please select a drink from the menu.
 
@@ -70,13 +72,16 @@ flat white
 CoffeeBot, [2023/08/14 16:46]
 I'm sorry, that's not a valid drink option. Please choose a drink from the menu.
 
-
+Example of entering just the name of a drink 
+---------------------------------------------
 Mischka Strydom, [2023/08/14 16:48]
 tea
 
 CoffeeBot, [2023/08/14 16:48]
 Great! You've selected Tea. What size would you like? We offer small, medium, large sizes.
 
+Example of entering just the size of a drink 
+---------------------------------------------
 Mischka Strydom, [2023/08/14 16:53]
 medium
 
@@ -91,6 +96,8 @@ y
 CoffeeBot, [2023/08/14 16:56]
 Sure! What drink would you like to add to your order? Please select a drink from the menu.
 
+Example of entering  the name and size a drink in a sentance
+------------------------------------------------------------
 Mischka Strydom, [2023/08/14 16:57]
 I would like a small coffee please
 
@@ -105,12 +112,16 @@ y
 CoffeeBot, [2023/08/14 17:03]
 Sure! What drink would you like to add to your order? Please select a drink from the menu.
 
+Example of entering the name of a drink in a sentance without the size
+---------------------------------------------------------------------
 Mischka Strydom, [2023/08/14 17:03]
 Can I please get a mocha
 
 CoffeeBot, [2023/08/14 17:03]
 Great! You've selected Mocha. What size would you like? We offer small, medium, large sizes.
 
+Example of entering the size of a drink in a sentance without the name
+---------------------------------------------------------------------
 Mischka Strydom, [2023/08/14 17:04]
 Make it a large
 
